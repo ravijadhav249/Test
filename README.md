@@ -7,3 +7,10 @@ kubectl create secret docker-registry my-registry-secret \
     --docker-username=ravijadhav249 \
     --docker-password=R@vi@3617 \
     --docker-email=ravikumarjadhav3617@gmail.com
+
+https://github.com/ravijadhav249/Project.git
+
+git config --global user.name "Your Name"
+git config --global user.email "your-email@example.com"
+
+docker run --rm -it --network=to-do-network -e SPRING_DATASOURCE_URL=jdbc:mysql://mysql-db:3306/tododb -e SPRING_DATASOURCE_USERNAME=root -e SPRING_DATASOURCE_PASSWORD=Root@123 todo-application-image:latest
